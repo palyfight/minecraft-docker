@@ -1,0 +1,5 @@
+minecraft-data/logs
+minecraft-data/world
+minecraft-data/eula.txt
+minecraft-data/minecraft_server*
+minecraft-data/*.json

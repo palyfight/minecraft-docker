@@ -1,0 +1,14 @@
+# Taken from => https://github.com/itzg/docker-minecraft-server
+version: "3"
+
+services:
+  mc:
+    image: itzg/minecraft-server
+    ports:
+      - 25565:25565
+    environment:
+      EULA: "TRUE"
+      VERSION: LATEST
+    volumes:
+      # attach a directory relative to the directory containing this compose file
+      - ./minecraft-data:/data
